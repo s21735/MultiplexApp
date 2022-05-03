@@ -1,0 +1,11 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: user
+#    password: 'password'
+#    driver-class-name: org.postgresql.Driver
+#  flyway:
+#    locations: classpath:db/migration/test
+reservation:
+  expireLimitBookingMinutes: 15
+  expireLimitAppearInPersonMinutes: 5
